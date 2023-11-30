@@ -54,6 +54,6 @@ public class Plugin : LethalAPI.Core.Features.Plugin<Config>
         }
 
         Instance = this;
-        Log.Debug("Started LethalAPI.Lobby successfully.");
+        Log.Debug($"Started {this.Name} successfully.");
     }
 }
